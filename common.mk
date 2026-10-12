@@ -187,17 +187,17 @@ PRODUCT_PACKAGES += \
     make_ext4fs \
     setup_fs
 
-# Live Wallpapers
-PRODUCT_PACKAGES += \
-    Galaxy4 \
-    HoloSpiralWallpaper \
-    LiveWallpapers \
-    LiveWallpapersPicker \
-    MagicSmokeWallpapers \
-    NoiseField \
-    PhaseBeam \
-    VisualizationWallpapers \
-    librs_jni
+# Live Wallpapers disabled for IoT Kiosk
+# PRODUCT_PACKAGES += \
+#    Galaxy4 \
+#    HoloSpiralWallpaper \
+#    LiveWallpapers \
+#    LiveWallpapersPicker \
+#    MagicSmokeWallpapers \
+#    NoiseField \
+#    PhaseBeam \
+#    VisualizationWallpapers \
+#    librs_jni
 
 
 # Wifi
